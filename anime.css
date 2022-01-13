@@ -1,0 +1,12 @@
+.anime{
+    margin-left:26px;
+    background: #005CC8;
+    border: 1px rgb(17, 255, 215) solid;
+}
+.btn{
+    border: none;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}

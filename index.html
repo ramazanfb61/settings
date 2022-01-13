@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anime.css">
+</head>
+<body>
+
+    <div id="main">
+        <h1 id="sett">Settings</h1>
+        <div id="first-item">
+
+            <div class="item">
+                <p class="txt">Dark mode</p>
+                <div class="switch-bg">
+                    <div class="check" id="first">
+                        <button class="btn" onclick="anime()"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <p class="txt">Desktop notifications</p>
+                <div class="switch-bg">
+                    <div class="check" id="second">
+                        <button class="btn"  onclick="anime2()"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <p class="txt">Focused inbox</p>
+                <div class="switch-bg">
+                    <div class="check" id="third">
+                        <button class="btn" onclick="anime3()"></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="second-item">
+            <form action="">
+            <h2 class="title">Conversation view</h2>
+            <div class="item2">
+                <input type="radio" class="check-bg " name="tick"></input>
+                <p class="txt2">Newest on bottom</p>
+            </div>
+            <div class="item2">
+                <input type="radio" class="check-bg" name="tick"></input>
+                <p class="txt2">Newest on top</p>
+            </div>
+            <div class="item2">
+                <input type="radio" class="check-bg" name="tick"></input>
+                <p class="txt2">Off</p>
+            </div>
+            </form>
+        </div>
+
+        <div id="second-item">
+            <h2 class="title">Reading panel</h2>
+            <div class="item2">
+                <input type="radio" class="check-bg" name="tick"></input>
+                <p class="txt2">Show on the right</p>
+            </div>
+            <div class="item2">
+                <input type="radio" class="check-bg" name="tick"></input>
+                <p class="txt2">Show on the bottom</p>
+            </div>
+            <div class="item2">
+                <input type="radio" class="check-bg" name="tick"></input>
+                <p class="txt2">Hide</p>
+            </div>
+        </div>
+        <div id="footer">
+            <h2 class="title" id="bottom">View all settings</h2>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
